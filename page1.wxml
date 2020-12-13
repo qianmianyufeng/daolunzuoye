@@ -1,0 +1,15 @@
+<view >
+ 
+  <image class="tu" src="http://a1.qpic.cn/psc?/V53lb4t92DapVb3R61zE11hSPW1mezyf/05RlWl8gsTOH*Z17MtCBzM9DTrnYWyAq.QulfpgWhZj6EI1if0DUrsvxg7RihIOijHt8jMx0nXPMacmwiidHxw!!/b&ek=1&kp=1&pt=0&bo=OATABjgEwAYRADc!&tl=1&tm=1606694400&sce=0-12-12&rf=viewer_311"></image>
+</view>
+<!--pages/page1/page1.wxml-->
+<view >
+
+
+  
+  
+  <button type="btn1" bindtap="navigate">点我查看当前小车情况</button>
+  
+
+  
+</view>

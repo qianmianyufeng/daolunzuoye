@@ -1,0 +1,9 @@
+
+.btn1{
+  width: 60%;
+}
+.tu{
+  width:750rpx;
+  height: 1000rpx;
+  border-radius: 500rpx;
+}

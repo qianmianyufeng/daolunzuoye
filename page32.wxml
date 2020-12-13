@@ -1,0 +1,25 @@
+<view >
+  <view class="page-body">
+    <view class="selected-date">{{year}}年{{month}}月{{day}}日{{isDaytime ? "白天" : "夜晚"}}</view>
+    <picker-view indicator-style="height: 50px;" style="width: 100%; height: 300px;" value="{{value}}" bindchange="bindChange">
+      <picker-view-column>
+        <view wx:for="{{years}}" wx:key="{{years}}" style="line-height: 50px; text-align: center;">{{item}}年</view>
+      </picker-view-column>
+      <picker-view-column>
+        <view wx:for="{{months}}" wx:key="{{months}}" style="line-height: 50px; text-align: center;">{{item}}月</view>
+      </picker-view-column>
+      <picker-view-column>
+        <view wx:for="{{days}}" wx:key="{{days}}" style="line-height: 50px; text-align: center;">{{item}}日</view>
+      </picker-view-column>
+      <picker-view-column>
+        <view class="icon-container">
+          <image class="picker-icon" src="http://m.qpic.cn/psc?/V53lb4t92DapVb3R61zE11hSPW1mezyf/ruAMsa53pVQWN7FLK88i5kSKaXk.PYBpEoy2Ac0SvvV*IPmorA9eqjiT*z0EdyyO3oNaOb2QEjPwSp51WP7s.cxAw99reLHl4w.NYFCS4GQ!/b&bo=HAAcAAAAAAADByI!&rf=viewer_4" />
+        </view>
+        <view class="icon-container">
+          <image class="picker-icon" src="http://m.qpic.cn/psc?/V53lb4t92DapVb3R61zE11hSPW1mezyf/45NBuzDIW489QBoVep5mcQTcvlwFexWQtsB9WjXZjw3k7592qpqLSl*vr6w8COZ59KrOUD1LaidjoC7012OrglwSSNAVvJg7pOFSa7ZtZvY!/b&bo=HAAcAAAAAAADFzI!&rf=viewer_4" />
+        </view>
+      </picker-view-column>
+    </picker-view>
+  </view>
+
+</view>

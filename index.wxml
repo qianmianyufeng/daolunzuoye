@@ -1,0 +1,22 @@
+<!--index.wxml-->
+
+<view class="container">
+<text class="user-motto">{{wd}}</text>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view> 
+   <view class="usermotto">
+    <text class="user-motto">{{motto1}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto2}}</text>
+  </view>
+  <view>
+  <image class="tu" src="http://m.qpic.cn/psc?/V53lb4t92DapVb3R61zE11hSPW2n1D66/ruAMsa53pVQWN7FLK88i5pxhAt*jic5KWOI0BjwqbdiFQ9Dq6p0oLic0sFaU*8Hy2D2691sOzc5v7XX6j3O8XdGYucN1pOlbFhduJkYFr7A!/b&bo=eAGkAQAAAAADB*4!&rf=viewer_4"></image>
+</view>
+
+</view>

@@ -1,0 +1,19 @@
+<!--pages/page31/page31.wxml-->
+
+<view><navigator url="/pages/page32/page32?title=page32">盲生你发现了华点</navigator></view>
+<view>请把黄条移到合适的位置</view>
+<movable-area style="height: 200px;width: 200px;background: yellow;">
+ <movable-view direction="all" style="height: 50px; width: 50px; background: blue;">
+ </movable-view>
+</movable-area>
+<movable-area style="height: 200px;width: 200px;background: yellow;">
+ 
+ <!--蓝色任意方向拖动的内容-->
+ <movable-view direction="all" style="height: 50px; width: 50px; background: green;">
+ </movable-view>
+ 
+ <!--黄色只能横向拖动的内容-->
+ <movable-view direction="all" style="height: 20px; width: 50px; background: yellow;">
+ </movable-view>
+ 
+</movable-area>

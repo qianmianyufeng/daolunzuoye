@@ -1,0 +1,12 @@
+/* pages/page2/page2.wxss */
+.btn1{
+  width: 60%;
+  text-align: center;
+}
+.swiperHome {
+	height: 230px;
+}
+ 
+.slide-image {
+	width: 100%;
+}

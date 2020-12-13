@@ -1,0 +1,19 @@
+<!--pages/page2/page2.wxml-->
+<view >
+  <view>欢迎查看小车的历史采集数据</view>
+  <swiper indicator-dots= "{{indicatorDots}}"
+autoplay= "{{autoplay}}" circular= "{{circular}}" interval= "{{interval}}" duration= "{{duration}}">
+<block wx:for= "{{imgUrls}}">
+<swiper-item >
+<image src= "{{item}}" class="slide-image"/>
+</swiper-item >
+</block >
+</swiper >
+
+<button type="btn1" bindtap="navigate">点我查看数据记录</button>
+
+
+
+</view>
+
+  

@@ -1,0 +1,6 @@
+/* pages/page21/page21.wxss */
+.tu{
+  margin-top: 2cm;
+  width:750rpx;
+  height: 750rpx;
+}

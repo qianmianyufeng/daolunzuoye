@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/page1/page1",
+    "pages/page2/page2",
+    "pages/page3/page3",
+    "pages/page11/page11",
+    "pages/page21/page21",
+    "pages/page31/page31",
+    "pages/page32/page32",
+    "pages/fb/fb"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#6495ED",
+    "navigationBarTitleText": "诸界巡烟者",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#7FFFD4",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "backgroundColor": "#6495ED",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "登陆",
+        "iconPath": "pages/图标01/科技项目 (1).png",
+        "selectedIconPath": "pages/图标01/科技项目.png"
+      },
+      {
+        "pagePath": "pages/page1/page1",
+        "text": "实时监控数据",
+        "iconPath": "pages/图标01/小车 (1).png",
+        "selectedIconPath": "pages/图标01/小车.png"
+      },
+      {
+        "pagePath": "pages/page2/page2",
+        "text": "数据记录",
+        "iconPath": "pages/图标01/科技成果 (1).png",
+        "selectedIconPath": "pages/图标01/科技成果.png"
+      },
+      {
+        "pagePath": "pages/page3/page3",
+        "text": "开发人员选项",
+        "iconPath": "pages/图标01/科技企业 (1).png",
+        "selectedIconPath": "pages/图标01/科技企业.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
